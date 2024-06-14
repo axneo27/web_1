@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Game</title>
+    <style>
+        .container_1, .container_2  {
+            display: flex;
+            align-items: flex-start; 
+            gap: 10px; 
+        }
+        .P {
+            font-size: large;
+            margin-right: 10px;
+        }
+        .card1 {
+            margin-left: 3px;
+            margin-top: 2px;
+        }
+        .card2 {
+            margin-left: 3px;
+            margin-top: 2px;
+        }
+        .card3 {
+            margin-left: 0px;
+            margin-top: 2px;
+        }
+        .p1, .p2 {
+            background-color: rgb(232, 229, 229);
+            width: 25px;
+            padding: 5px; 
+            height: 20px;
+            top: 10px;
+        }
+        .p2 {
+            color: red;
+            position: relative;
+            top: 0px;
+        }
+        .p3, .p4 {
+            background-color: rgb(232, 229, 229);
+            width: 25px;
+            padding: 5px; 
+            height: 20px;
+            top: 30px;
+        }
+        .p4 {
+            color: red;
+            position: relative;
+            top: 0px;
+        }
+    </style>
+</head>
+<body>
+    <p class="P">Player 1:</p>
+    <div class="container_1">
+        <div class="p1">
+            <p class="card1">2&#9827;</p>
+        </div>
+        <div class="p2">
+            <p class="card1">9&#9829;</p>
+        </div>
+        <div class="p2">
+            <p class="card1">6&#9829;</p>
+        </div>
+        <div class="p2">
+            <p class="card1">A&#9830;</p>
+        </div>
+        <div class="p1">
+            <p class="card1">Q&#9824;</p>
+        </div>
+        <div class="p1">
+            <p class="card1">J&#9827;</p>
+        </div>
+    </div>
+    <p class="P">Player 2:</p>
+    <div class="container_2">
+        <div class="p4">
+            <p class="card2">3&#9829;</p>
+        </div>
+        <div class="p3">
+            <p class="card2">A&#9827;</p>
+        </div>
+        <div class="p3">
+            <p class="card3">10&#9827;</p>
+        </div>
+        <div class="p4">
+            <p class="card2">K&#9830;</p>
+        </div>
+        <div class="p3">
+            <p class="card2">8&#9824;</p>
+        </div>
+        <div class="p4">
+            <p class="card2">3&#9829;</p>
+        </div>
+    </div>
+</body>
+</html>
